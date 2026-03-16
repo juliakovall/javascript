@@ -5,3 +5,4 @@ function sumArray(numbers) {
 // const exampleArray = [1, 2, 3, 4, 5]
 // const sum = sumArray(exampleArray)
 // console.log('Сума елементів масиву:', sum)
+export { sumArray };

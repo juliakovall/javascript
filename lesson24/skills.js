@@ -22,3 +22,4 @@ class SkillsManager {
 // console.log(skillsManager.addSkill('JavaScript'))
 // console.log(skillsManager.addSkill('CSS'))
 // console.log(skillsManager.getAllSkills())
+export { SkillsManager };

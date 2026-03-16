@@ -23,3 +23,4 @@ function DateCalculator(initialDate) {
 //
 // dateCalculator.subtractDays(3)
 // console.log(dateCalculator.getResult())
+export { DateCalculator };
