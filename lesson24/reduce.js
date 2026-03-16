@@ -1,32 +1,7 @@
-console.log("#6. JavaScript homework example file");
-class CalorieCalculator {
-  constructor() {
-    this.products = new Map();
-  }
-
-  addProduct(name, calories) {
-    this.products.set(name, calories);
-  }
-
-  getProductCalories(productName) {
-    if (this.products.has(productName)) {
-      return this.products.get(productName);
-    }
-    return "Product not found";
-  }
-
-  removeProduct(productName) {
-    this.products.delete(productName);
-  }
+function sumArray(numbers) {
+  return numbers.reduce((total, number) => total + number, 0);
 }
-export { CalorieCalculator };
 
-const calorieCalculator = new CalorieCalculator();
-calorieCalculator.addProduct("Apple", 52);
-calorieCalculator.addProduct("Banana", 89);
-
-console.log(calorieCalculator.getProductCalories("Apple"));
-console.log(calorieCalculator.getProductCalories("Banana"));
-
-calorieCalculator.removeProduct("Apple");
-console.log(calorieCalculator.getProductCalories("Apple"));
+// const exampleArray = [1, 2, 3, 4, 5]
+// const sum = sumArray(exampleArray)
+// console.log('Сума елементів масиву:', sum)
