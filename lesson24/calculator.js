@@ -17,10 +17,10 @@ function DateCalculator(initialDate) {
     return `${year}-${month}-${day}`;
   };
 }
-// const dateCalculator = new DateCalculator('2023-01-01')
-// dateCalculator.addDays(5)
-// console.log(dateCalculator.getResult())
-//
-// dateCalculator.subtractDays(3)
-// console.log(dateCalculator.getResult())
+const dateCalculator = new DateCalculator("2023-01-01");
+dateCalculator.addDays(5);
+console.log(dateCalculator.getResult());
+
+dateCalculator.subtractDays(3);
+console.log(dateCalculator.getResult());
 export { DateCalculator };
