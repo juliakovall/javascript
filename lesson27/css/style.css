@@ -28,7 +28,9 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
 }
-
+.hidden {
+  display: none;
+}
 .link-primary:focus,
 .link-primary:hover {
   color: rgb(109, 225, 227) !important;
@@ -54,7 +56,8 @@ h6 {
 .nav__link--active {
   color: rgb(109, 225, 227) !important;
 }
-.nav__link--active:after, .nav__link:hover:after {
+.nav__link--active:after,
+.nav__link:hover:after {
   scale: 1 1;
 }
 
