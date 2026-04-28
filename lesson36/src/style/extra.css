@@ -1,0 +1,17 @@
+.weather-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#weather-city,
+#weather-description,
+#weather-temperature,
+#weather-feels-like,
+#weather-humidity,
+#weather-wind {
+  margin: 10px 0;
+}
